@@ -1,0 +1,126 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Web Portofolio</title>
+
+        <meta charset="utf-8" />
+        <meta name="author" content="Tika Nugraheni" />
+        <meta name="description" content="Web Profile" />
+        <meta name="keywords" content="Profile,Web,Portofolio,CV" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" type="text/css" href="style1.css" />
+    </head>
+    <body class="body">
+        <header>
+        <!--Navigation-->
+        <div class="navbar" id="myNavbar">
+            <a href="#home">Home</a>
+            <a href="#video">Video</a>
+            <a href="#about">About Me</a>
+            <a href="#galery">Photos</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a> </a>
+          </div>
+          <script>
+            function myFunction() {
+              var x = document.getElementById("myNavbar");
+              if (x.className === "navbar") {
+                x.className += " responsive";
+              } else {
+                x.className = "navbar";
+              }
+            }
+            </script>
+            
+        <!--Cover--> 
+        <div id="content">
+            <div id="home">
+            <img id="responsive" src="img/troll.png" alt="vector"  width="1200px" height="650px"><p id="nama"><u>Tika Nugraheni</p><h4> Blog About My Life</h4>
+        </div>
+
+        <!--Video Gallery-->
+            <div id="bg2"></div>
+            <div id="bg3"></div>
+            <video width="400" controls id="video">
+                <source src="video/vid1.mp4" type="video/mp4">
+                <source src="video/vid1.ogg" type="video/ogg">
+            </video>
+            <div class="listvideo">
+            <ul>
+                <li>
+                    <video id="video" width="400" controls>
+                        <source src="video/video4.mp4" type="video/mp4">
+                        <source src="video/video4.ogg" type="video/ogg">
+                    </video>
+
+                    <video id="video1" width="400" controls >
+                        <source src="video/video2.mp4" type="video/mp4">
+                        <source src="video/video2.ogg" type="video/ogg">
+                    </video>
+
+                    <video id="video2" width="400" controls>
+                        <source src="video/video3.mp4" type="video/mp4">
+                        <source src="video/video3.ogg" type="video/ogg">
+                    </video>
+                </li>
+            </ul>
+            </div>
+        </div>
+
+        <!--Portofolio-->
+        <div id="about">
+        <div id="bg4">
+            <h2> This is <br/> My Story</h2> <br/>
+            <p1> 
+                My name is Tika Nugraheni, many people call me Tika. 
+                I was born on 26th October 1999, so now my age is 20 years old. 
+                But many people didn't believe that, they said that i was 
+                still young like student in junior high school. It's ok or me 
+                so i can thankfull to God for the cute face that He gave to 
+                me. Now I live in small city, Klaten. Its's located between 
+                Yogtakarta and Solo. 
+            </p1> <br/> <br/>
+            <p1>
+                I live with my family nut my sister 
+                works iin Semarang so she lives alone in Semarang. 
+                Someties she come back twice a month. My father works in Solo, 
+                he works in hotels as chef. I so proud of him, he is a 
+                hardworker and loving father. He bald but he so handsome, 
+                and of course he very very love with his wife. Yeahh my mom,
+                she just housewife but she a hardworker too. She very funny
+                mom, we alsways joking around all the times when we meet 
+                each other. 
+            </p1>
+        </div>
+        <div id="bg5">
+            <div id="pic">
+            <img src="img/me1.jpg" width="400" height="650"> 
+            </div>
+        </div>
+        </div>
+
+
+        <!--photo gallery-->
+            <h3 id="galery"> #TikaKusuka on Insta </h3>
+            <div class="row">
+            <div class="column">
+                <img id="a" src="img/me.jpg" width="450" height="450"/>
+                <img id="b" src="img/11.jpeg" width="200" height="200"/>
+                <img id="c" src="img/7.jpeg" width="200" height="200"/>
+            </div>
+            <div class="column">
+                <img id="d" src="img/3.jpeg" width="200" height="200"/>
+                <img id="e" src="img/10.jpeg" width="215" height="215"/>
+                <img id="i" src="img/13.jpg" width="200" height="140"/>
+                <img id="j" src="img/14.png" width="200" height="150"/>
+            </div>
+            <div class="column">
+                <img id="f" src="img/8.jpeg" width="215" height="215"/>
+                <img id="g" src="img/6.jpg" width="415" height="465"/>
+                <img id="h" src="img/12.jpeg" width="200" height="150"/>
+            </div>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
